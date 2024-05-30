@@ -1,0 +1,28 @@
+---
+title: Permalinks with object
+description: Paginate an object of airliners with permalinks
+layout: default
+pagination:
+  data: object
+  size: 1
+permalink: "permalink3/{{ pagination.items[0].model | slugify }}/index.html"
+---
+{% include 'paginationObject' %}
+<h4>{{ pagination.items[0].model }}</h4>
+<p>Range: {{ pagination.items[0].role }}</p>
+<p>Entered service in {{ pagination.items[0].service }}</p>
+<p>{{ pagination.items[0].description }}</p>
+<h4>Structure</h4>
+<h5>Frontmatter</h5>
+<pre>
+  pagination:
+    data: object
+    size: 1
+  permalink: "permalink3/&#123;&#123; pagination.items[0].model | slugify }}/index.html"
+</pre>
+<h5>Content</h5>
+<pre>
+  &lt;h4>&#123;&#123; pagination.items[0].model }}&lt;/h4>
+  &lt;p>&#123;&#123; pagination.items[0].description }}&lt;/p>
+  {&#37; include 'paginationObject' &#37;}
+</pre>

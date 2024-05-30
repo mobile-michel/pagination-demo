@@ -1,0 +1,17 @@
+{
+  "name": "pagination-demo",
+  "version": "1.0.0",
+  "description": "Pagination demo with code examples.",
+  "main": "eleventy.config.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "eleventy",
+    "build-gp": "eleventy --pathprefix 'pagination-demo'"
+  },
+  "keywords": ["eleventy", "liquid", "pagination", "demo"],
+  "author": "Michel Maillard",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

@@ -1,0 +1,20 @@
+---
+title: Airliners array
+description: An array of airliners
+layout: default
+tags: [primary, iteration]
+date: 2024-01-01
+---
+<ul>
+  {% for airliner in array %}
+  <li>{{ airliner }}</li>
+  {% endfor %}
+</ul>
+<h4>Structure</h4>
+<pre>
+  &lt;ul>
+  &#123;% for airliner in array %}
+      &lt;li>&#123;&#123; airliner }}&lt;/li>
+  &#123;% endfor %}
+  &lt;/ul>
+</pre>

@@ -1,0 +1,21 @@
+---
+title: Permalinks with collections
+description: Paginate an collections of airliners with permalinks
+layout: default
+tags: [primary, permalink]
+date: 2024-01-08
+---
+<ul>
+  {% for airliner in collections.airliner %}
+  <li><a href="/permalink2/{{ airliner.data.title | slugify }}">{{ airliner.data.title }}</a></li>
+  {% endfor %}
+</ul>
+<h3>Structure</h3>
+<pre>
+  &#60;ul>
+  {&#37; for airliner in collections.airliner &#37;}
+    &#60;li>&#60;a href="/permalink2/&#123;&#123; airliner.data.title | slugify }}">&#123;&#123; airliner.data.title }}&#60;/a>&#60;/li>
+  {&#37; endfor &#37;}
+  &#60;/ul>
+</pre>
+</p>

@@ -1,0 +1,29 @@
+---
+title: Paginate array
+description: Paginate an array of airliners
+layout: default
+tags: [primary, pagination]
+date: 2024-01-04
+pagination:
+  data: array
+  size: 1
+---
+{% include 'paginationArray' %}
+<p>{{ pagination.items }}</p>
+<h4>Structure</h4>
+<h5>Frontmatter</h5>
+<pre>
+  pagination:
+    data: array
+    size: 1
+</pre>
+<h5>Content</h5>
+<pre>
+  &lt;p>&#123;&#123; pagination.items }}&lt;/p>
+  {&#37; include 'paginationArray' &#37;}
+</pre>
+<h5>paginationArray</h5>
+<pre>
+  &lt;button>&#123;&#123; pagination.page.previous }}&lt;/button>
+  &lt;button>&#123;&#123; pagination.page.next }}&lt;/button>
+</pre>

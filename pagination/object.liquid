@@ -1,0 +1,33 @@
+---
+title: Paginate object
+description: Paginate an object of airliners
+layout: default
+tags: [primary, pagination]
+date: 2024-01-05
+pagination:
+  data: object
+  size: 1
+---
+{% include 'paginationObject' %}
+<h4>{{ pagination.items[0].model }}</h4>
+<p>{{ pagination.items[0].role }} that entered service in {{ pagination.items[0].service }}</p>
+<p>{{ pagination.items[0].description }}</p>
+
+<h4>Structure</h4>
+<h5>Frontmatter</h5>
+<pre>
+  pagination:
+    data: object
+    size: 1
+</pre>
+<h5>Content</h5>
+<pre>
+  &lt;p>&#123;&#123; pagination.items[0].model }}&lt;/p>
+  &lt;p>&#123;&#123; pagination.items[0].description }}&lt;/p>
+  {&#37; include 'paginationObject' &#37;}
+</pre>
+<h5>paginationObject</h5>
+<pre>
+  &lt;button>&#123;&#123; pagination.page.previous.model }}&lt;/button>
+  &lt;button>&#123;&#123; pagination.page.next.model }}&lt;/button>
+</pre>

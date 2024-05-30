@@ -1,0 +1,20 @@
+---
+title: Airliners object
+description: An object of airliners
+layout: default
+tags: [primary, iteration]
+date: 2024-01-02
+---
+<ul>
+  {% for airliner in object %}
+  <li>{{ airliner.model }}</li>
+  {% endfor %}
+</ul>
+<h4>Structure</h4>
+<pre>
+  &lt;ul>
+  &#123;% for airliner in object %}
+      &lt;li>&#123;&#123; airliner.model }}&lt;/li>
+  &#123;% endfor %}
+  &lt;/ul>
+</pre>

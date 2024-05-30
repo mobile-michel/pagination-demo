@@ -1,0 +1,20 @@
+---
+title: Airliners collection
+description: An collection of airliners
+layout: default
+tags: [primary, iteration]
+date: 2024-01-03
+---
+<ul>
+  {% for airliner in collections.airliner %}
+  <li>{{ airliner.data.title }}</li>
+  {% endfor %}
+</ul>
+<h4>Structure</h4>
+<pre>
+  &lt;ul>
+  &#123;% for airliner in collections.airliner %}
+      &lt;li>&#123;&#123; airliner.data.title }}&lt;/li>
+  &#123;% endfor %}
+  &lt;/ul>
+</pre>

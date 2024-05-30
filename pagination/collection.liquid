@@ -1,0 +1,32 @@
+---
+title: Paginate collection
+description: Paginate an collection of airliners
+layout: default
+tags: [primary, pagination]
+date: 2024-01-06
+pagination:
+  data: collections.airliner
+  size: 1
+---
+{% include 'paginationCollection' %}
+<h4>{{ pagination.items[0].data.title }}</h4>
+<p>{{ pagination.items[0].content }}</p>
+
+<h4>Structure</h4>
+<h5>Frontmatter</h5>
+<pre>
+  pagination:
+    data: collections.airliner
+    size: 1
+</pre>
+<h5>Content</h5>
+<pre>
+  &lt;p>&#123;&#123; pagination.items[0].data.title }}&lt;/p>
+  &lt;p>&#123;&#123; pagination.items[0].content }}&lt;/p>
+  {&#37; include 'paginationCollection' &#37;}
+</pre>
+<h5>paginationCollection</h5>
+<pre>
+  &lt;button>&#123;&#123; pagination.page.previous.data.title }}&lt;/button>
+  &lt;button>&#123;&#123; pagination.page.next.data.title }}&lt;/button>
+</pre>
