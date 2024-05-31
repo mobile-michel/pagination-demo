@@ -7,7 +7,7 @@ pagination:
   size: 1
 permalink: "permalink2/{{ pagination.items[0].data.title | slugify }}/index.html"
 ---
-{% include 'paginationCollection' %}
+{% include 'pagination/collection' %}
 <h4>{{ pagination.items[0].data.title }}</h4>
 <p>Range: {{ pagination.items[0].data.role }}</p>
 <p>Entered service in {{ pagination.items[0].data.service }}</p>

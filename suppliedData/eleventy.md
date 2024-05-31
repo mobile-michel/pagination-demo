@@ -3,12 +3,12 @@ title: eleventy variable
 description: 
 layout: default
 tags: [primary, supplieddata]
-date: 2024-03-13
+date: 2024-09-13
 pagination:
   data: object
   size: 1
 ---
-{% include 'paginationObject' %}
+{% include 'pagination/object' %}
 
 - **eleventy.version**: {{ eleventy.version }}
 - **eleventy.generator**: {{ eleventy.generator }}

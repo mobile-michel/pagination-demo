@@ -1,0 +1,24 @@
+---
+title: Paginate hierarchie
+description: Paginate a hierarchic object of airliners
+layout: default
+tags: [primary, pagination]
+date: 2024-05-06
+pagination:
+  data: hierarchic
+  size: 1
+---
+{% include 'pagination/hierarchie' %}
+<h3>{{ pagination.items[0].role }}</h3>
+<p>{{ pagination.items[0].role_description | capitalize }}</p>
+<ul>
+  {% for company_names in pagination.items[0].airplanes %}
+  <li><strong>{{ company_names.company }} :</strong>
+    <ul>
+      {% for airplanes_names in company_names.models %}
+      <li><strong>{{ airplanes_names.model }}</strong> (entered service in {{ airplanes_names.service }}) : {{ airplanes_names.description }}</li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>

@@ -3,12 +3,12 @@ title: collections variable
 description: 
 layout: default
 tags: [primary, supplieddata]
-date: 2024-03-10
+date: 2024-09-10
 pagination:
   data: object
   size: 1
 ---
-{% include 'paginationObject' %}
+{% include 'pagination/object' %}
 
 - collections.airliner[0].template [objects]:
   {% for item in collections.airliner[0].template %}

@@ -3,12 +3,12 @@ title: page variable
 description: 
 layout: default
 tags: [primary, supplieddata]
-date: 2024-03-12
+date: 2024-09-12
 pagination:
   data: object
   size: 1
 ---
-{% include 'paginationObject' %}
+{% include 'pagination/object' %}
 
 - **page.url**: {{ page.url }}
 - **page.outputPath**: {{ page.outputPath }}

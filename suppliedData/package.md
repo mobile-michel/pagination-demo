@@ -3,12 +3,12 @@ title: pkg variable
 description: 
 layout: default
 tags: [primary, supplieddata]
-date: 2024-03-14
+date: 2024-09-14
 pagination:
   data: object
   size: 1
 ---
-{% include 'paginationObject' %}
+{% include 'pagination/object' %}
 
 - **pkg.name**: {{ pkg.name }}
 - **pkg.version**: {{ pkg.version }}

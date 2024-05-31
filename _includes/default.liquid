@@ -2,13 +2,13 @@
 layout: base
 ---
 <header>
-    {% include 'nav-primary' %}
+    {% include 'navigation/primary' %}
     <h1>Airliners</h1>
 </header>
 <main>
     {% if collections.secondary %}
     <aside>
-        {% include 'nav-secondary' %}
+        {% include 'navigation/secondary' %}
     </aside>
     {% endif %}
     <section aria-labelledby="{{ title | slugify }}">
@@ -19,7 +19,7 @@ layout: base
 </main>
 <footer>
     {% if collections.footer %}
-    {% include 'nav-footer' %}
+    {% include 'navigation/footer' %}
     {% endif %}
     {% include 'copyright' %}
 </footer>

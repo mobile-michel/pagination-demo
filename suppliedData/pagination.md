@@ -3,12 +3,12 @@ title: pagination variable
 description: 
 layout: default
 tags: [primary, supplieddata]
-date: 2024-03-11
+date: 2024-09-11
 pagination:
   data: object
   size: 1
 ---
-{% include 'paginationObject' %}
+{% include 'pagination/object' %}
 
 - pagination.items[0] [objects]:
   {% for item in pagination.items[0] %}

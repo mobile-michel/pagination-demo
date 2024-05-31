@@ -3,18 +3,21 @@ title: Airliners array
 description: An array of airliners
 layout: default
 tags: [primary, iteration]
-date: 2024-01-01
+date: 2024-02-01
 ---
 <ul>
+  {% assign array = array | sort %}
   {% for airliner in array %}
   <li>{{ airliner }}</li>
   {% endfor %}
 </ul>
+
 <h4>Structure</h4>
 <pre>
   &lt;ul>
-  &#123;% for airliner in array %}
+    &#123;% assign array = array | sort %}
+    &#123;% for airliner in array %}
       &lt;li>&#123;&#123; airliner }}&lt;/li>
-  &#123;% endfor %}
+    &#123;% endfor %}
   &lt;/ul>
 </pre>

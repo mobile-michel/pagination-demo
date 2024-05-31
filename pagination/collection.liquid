@@ -3,12 +3,12 @@ title: Paginate collection
 description: Paginate an collection of airliners
 layout: default
 tags: [primary, pagination]
-date: 2024-01-06
+date: 2024-05-06
 pagination:
   data: collections.airliner
   size: 1
 ---
-{% include 'paginationCollection' %}
+{% include 'pagination/collection' %}
 <h4>{{ pagination.items[0].data.title }}</h4>
 <p>{{ pagination.items[0].content }}</p>
 

@@ -5,9 +5,9 @@ layout: default
 pagination:
   data: object
   size: 1
-permalink: "permalink3/{{ pagination.items[0].model | slugify }}/index.html"
+permalink: "permalink1/{{ pagination.items[0].model | slugify }}/index.html"
 ---
-{% include 'paginationObject' %}
+{% include 'pagination/object' %}
 <h4>{{ pagination.items[0].model }}</h4>
 <p>Range: {{ pagination.items[0].role }}</p>
 <p>Entered service in {{ pagination.items[0].service }}</p>

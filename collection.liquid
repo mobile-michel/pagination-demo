@@ -3,18 +3,20 @@ title: Airliners collection
 description: An collection of airliners
 layout: default
 tags: [primary, iteration]
-date: 2024-01-03
+date: 2024-02-03
 ---
 <ul>
-  {% for airliner in collections.airliner %}
+  {% assign airliner = collections.airliner | sort: 'data.title' %}
+  {% for airliner in airliner %}
   <li>{{ airliner.data.title }}</li>
   {% endfor %}
 </ul>
 <h4>Structure</h4>
 <pre>
   &lt;ul>
-  &#123;% for airliner in collections.airliner %}
+    &#123;% assign airliner = collections.airliner | sort: 'data.title' %}
+    &#123;% for airliner in collections.airliner %}
       &lt;li>&#123;&#123; airliner.data.title }}&lt;/li>
-  &#123;% endfor %}
+    &#123;% endfor %}
   &lt;/ul>
 </pre>

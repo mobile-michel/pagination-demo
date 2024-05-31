@@ -1,0 +1,24 @@
+---
+title: Role hierarchie
+description: Hierarchic objects of airliners
+layout: default
+tags: [primary, iteration]
+date: 2024-11-03
+---
+<ul>
+  {% for role_names in hierarchic %}
+  <li><strong>{{ role_names.role }}</strong> : {{ role_names.role_description }}
+    <ul>
+      {% for company_names in role_names.airplanes %}
+      <li><strong>{{ company_names.company }} :</strong>
+        <ul>
+          {% for airplanes_names in company_names.models %}
+          <li>{{airplanes_names.model }}</li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,16 @@
+---
+title: Airliners hierarchie
+description: A hierarchie of airliners
+layout: default
+tags: [primary, iteration]
+date: 2024-02-03
+---
+<ul>
+  {% for role_names in hierarchic %}
+  {% for company_names in role_names.airplanes %}
+  {% for airplanes_names in company_names.models %}
+  <li>{{ airplanes_names.model }}</li>
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+</ul>
