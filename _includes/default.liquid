@@ -5,18 +5,20 @@ layout: base
     {% include 'navigation/primary' %}
     <h1>Airliners</h1>
 </header>
-<main>
-    {% if collections.secondary %}
+<main-container>
+    {% if collections.pagination %}
     <aside>
         {% include 'navigation/secondary' %}
     </aside>
     {% endif %}
-    <section aria-labelledby="{{ title | slugify }}">
-        <h2 id="{{ title | slugify }}">{{ title }}</h2>
-        {% if description %}<p><strong>{{ description }}</strong></p>{% endif %}
-        {{ content }}
-    </section>
-</main>
+    <main>
+        <section aria-labelledby="{{ title | slugify }}">
+            <h2 id="{{ title | slugify }}">{{ title }}</h2>
+            {% if description %}<p><strong>{{ description }}</strong></p>{% endif %}
+            {{ content }}
+        </section>
+    </main>
+</main-container>
 <footer>
     {% if collections.footer %}
     {% include 'navigation/footer' %}

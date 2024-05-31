@@ -1,47 +1,59 @@
 [
     {
+        "company": "Airbus",
         "model": "Airbus A220",
         "role": "Narrow-body jet airliner",
+        "role_description": "A narrow-body aircraft or single-aisle aircraft is an airliner arranged along a single aisle permitting up to 6-abreast seating in a cabin below 4 metres (13 ft) of width.",
         "service": "2012",
         "description": "The Airbus A220 is a family of five-abreast narrow-body airliners by Airbus Canada Limited Partnership (ACLP). It was originally developed by Bombardier and had two years in service as the Bombardier CSeries."
     },
     {
+        "company": "Airbus",
         "model": "Airbus A320",
         "role": "Narrow-body jet airliner",
+        "role_description": "A narrow-body aircraft or single-aisle aircraft is an airliner arranged along a single aisle permitting up to 6-abreast seating in a cabin below 4 metres (13 ft) of width.",
         "service": "1986",
         "description": "The Airbus A320 family is a series of narrow-body airliners developed and produced by Airbus. The A320 was launched in March 1984, first flew on 22 February 1987, and was introduced in April 1988 by Air France."
     },
     {
+        "company": "Airbus",
         "model": "Airbus A380",
         "role": "Wide-body jet airliner",
         "service": "2003",
         "description": "The Airbus A380 is a very large wide-body airliner that was developed and produced by Airbus. It is the world's largest passenger airliner and the only full-length double-deck jet airliner."
     },
     {
+        "company": "Boeing",
         "model": "Boeing 717",
         "role": "Narrow-body jet airliner",
+        "role_description": "A narrow-body aircraft or single-aisle aircraft is an airliner arranged along a single aisle permitting up to 6-abreast seating in a cabin below 4 metres (13 ft) of width.",
         "service": "1998",
         "description": "The Boeing 717 is an American five-abreast narrow-body airliner produced by Boeing Commercial Airplanes. The twin-engine airliner was developed for the 100-seat market and originally marketed by McDonnell Douglas in the early 1990s as the MD-95 until the company merged with Boeing in August 1997."
     },
     {
+        "company": "Boeing",
         "model": "Boeing 737",
         "role": "Narrow-body jet airliner",
+        "role_description": "A narrow-body aircraft or single-aisle aircraft is an airliner arranged along a single aisle permitting up to 6-abreast seating in a cabin below 4 metres (13 ft) of width.",
         "service": "1966",
         "description": "The Boeing 737 is a narrow-body aircraft produced by Boeing at its Renton factory in Washington. Developed to supplement the Boeing 727 on short and thin routes, the twinjet retained the 707 fuselage width and six abreast seating but with two underwing turbofans instead of four."
     },
     {
+        "company": "Boeing",
         "model": "Boeing 787",
         "role": "Wide-body jet airliner",
         "service": "2007",
         "description": "The Boeing 787 Dreamliner is an American wide-body airliner developed and manufactured by Boeing Commercial Airplanes. After dropping its unconventional Sonic Cruiser project, Boeing announced the conventional 7E7 on January 29, 2003, which focused largely on efficiency."
     },
     {
+        "company": "Airbus",
         "model": "Airbus A350",
         "role": "Wide-body jet airliner",
         "service": "2013",
         "description": "The Airbus A350 XWB is a family of long-range, wide-body airliners developed by Airbus. The first A350 design proposed by Airbus in 2004, in response to the Boeing 787 Dreamliner, would have been a development of the A330 with composite wings and new engines."
     },
     {
+        "company": "Boeing",
         "model": "Boeing 777",
         "role": "Wide-body jet airliner",
         "service": "1995",

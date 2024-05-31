@@ -8,8 +8,18 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-    margin: 0;
+body-container {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main-container {
+    display: flex;
+}
+
+main {
+    flex: 1;
     padding: 1em;
 }
 

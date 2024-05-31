@@ -1,8 +1,6 @@
 ---
 title: page variable
 description: 
-layout: default
-tags: [primary, supplieddata]
 date: 2024-09-12
 pagination:
   data: object

@@ -1,20 +1,24 @@
 ---
 title: Test variables
-description: 
+description:
 layout: default
 tags: [primary, supplieddata]
 date: 2024-01-01
 ---
+
+{% for item in collections.airliner %}
+
+- {{ item.data.title }}
+  {% endfor %}
+
+#### Structure
+
+```
 <ul>
+  {%- raw %}
   {% for item in collections.airliner %}
   <li>{{ item.data.title }}</li>
   {% endfor %}
+{% endraw -%}
 </ul>
-<h4>Structure</h4>
-<pre>
-  &lt;ul>
-  &#123;% for item in collections.airliner %}
-      &lt;li>&#123;&#123; item.data.title }}&lt;/li>
-  &#123;% endfor %}
-  &lt;/ul>
-</pre>
+```

@@ -1,8 +1,6 @@
 ---
 title: collections variable
 description: 
-layout: default
-tags: [primary, supplieddata]
 date: 2024-09-10
 pagination:
   data: object
