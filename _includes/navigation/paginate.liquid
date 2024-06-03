@@ -1,0 +1,17 @@
+{% if collections.airliner %}
+    {% assign nextPost = collections.airliner | getNextCollectionItem %}
+    {% assign previousPost = collections.airliner | getPreviousCollectionItem %}
+    {% assign index = collections.airliner | getCollectionItemIndex %}
+    {% assign currentPost = collections.airliner | getCollectionItem %}
+    {% if nextPost or previousPost %}
+    <ul>
+        {% if previousPost %}
+        <li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>
+        {% endif %}
+        <li>This is page {{ index }} with {{ currentPost.data.title }}.</li>
+        {% if nextPost %}
+        <li>Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>
+        {% endif %}
+    </ul>
+    {% endif %}
+    {% endif %}

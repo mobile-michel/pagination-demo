@@ -7,7 +7,7 @@ pagination:
   size: 1
 ---
 {% include 'pagination/hierarchie' %}
-<h3>{{ pagination.items[0].role }}</h3>
+<h2>{{ pagination.items[0].role }}</h2>
 <p>{{ pagination.items[0].role_description | capitalize }}</p>
 <ul>
   {% for company_names in pagination.items[0].airplanes %}

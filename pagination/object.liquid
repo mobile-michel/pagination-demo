@@ -7,7 +7,7 @@ pagination:
   size: 1
 ---
 {% include 'pagination/object' %}
-<h4>{{ pagination.items[0].model }}</h4>
+<h2>{{ pagination.items[0].company }} {{ pagination.items[0].model | capitalize }}</h2>
 <p>{{ pagination.items[0].role }} that entered service in {{ pagination.items[0].service }}</p>
 <p>{{ pagination.items[0].description }}</p>
 

@@ -5,7 +5,7 @@ date: 2024-07-07
 ---
 <ul>
   {% for airliner in object %}
-  <li><a href="/permalink1/{{ airliner.model | slugify }}">{{ airliner.model }}</a></li>
+  <li><a href="/permalink1/{{ airliner.model | slugify }}">{{ airliner.company }} {{ airliner.model }}</a></li>
   {% endfor %}
 </ul>
 

@@ -7,12 +7,12 @@
                 "company": "Airbus",
                 "models": [
                     {
-                        "model": "Airbus A220",
+                        "model": "a220",
                         "service": "2012",
                         "description": "the Airbus A220 is a family of five-abreast narrow-body airliners by Airbus Canada Limited Partnership (ACLP). It was originally developed by Bombardier and had two years in service as the Bombardier CSeries."
                     },
                     {
-                        "model": "Airbus A320",
+                        "model": "a320",
                         "service": "1986",
                         "description": "the Airbus A320 family is a series of narrow-body airliners developed and produced by Airbus. The A320 was launched in March 1984, first flew on 22 February 1987, and was introduced in April 1988 by Air France."
                     }
@@ -22,12 +22,12 @@
                 "company": "Boeing",
                 "models": [
                     {
-                        "model": "Boeing 717",
+                        "model": "b717",
                         "service": "1998",
                         "description": "the Boeing 717 is an American five-abreast narrow-body airliner produced by Boeing Commercial Airplanes. The twin-engine airliner was developed for the 100-seat market and originally marketed by McDonnell Douglas in the early 1990s as the MD-95 until the company merged with Boeing in August 1997."
                     },
                     {
-                        "model": "Boeing 737",
+                        "model": "b737",
                         "service": "1966",
                         "description": "the Boeing 737 is a narrow-body aircraft produced by Boeing at its Renton factory in Washington. Developed to supplement the Boeing 727 on short and thin routes, the twinjet retained the 707 fuselage width and six abreast seating but with two underwing turbofans instead of four."
                     }
@@ -43,12 +43,12 @@
                 "company": "Airbus",
                 "models": [
                     {
-                        "model": "Airbus A380",
+                        "model": "a380",
                         "service": "2003",
                         "description": "the Airbus A380 is a very large wide-body airliner that was developed and produced by Airbus. It is the world's largest passenger airliner and the only full-length double-deck jet airliner."
                     },
                     {
-                        "model": "Airbus A350",
+                        "model": "a350",
                         "service": "2013",
                         "description": "the Airbus A350 XWB is a family of long-range, wide-body airliners developed by Airbus. The first A350 design proposed by Airbus in 2004, in response to the Boeing 787 Dreamliner, would have been a development of the A330 with composite wings and new engines."
                     }
@@ -58,12 +58,12 @@
                 "company": "Boeing",
                 "models": [
                     {
-                        "model": "Boeing 787",
+                        "model": "b787",
                         "service": "2007",
                         "description": "the Boeing 787 Dreamliner is an American wide-body airliner developed and manufactured by Boeing Commercial Airplanes. After dropping its unconventional Sonic Cruiser project, Boeing announced the conventional 7E7 on January 29, 2003, which focused largely on efficiency."
                     },
                     {
-                        "model": "Boeing 777",
+                        "model": "b777",
                         "service": "1995",
                         "description": "the Boeing 777 is a wide-body airliner developed and manufactured by Boeing Commercial Airplanes. It is the world's largest twinjet. The 777 was designed to bridge the gap between Boeing's other wide-body airliners and Airbus's A340."
                     }

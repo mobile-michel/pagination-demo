@@ -6,7 +6,7 @@ date: 2024-02-02
 <ul>
   {% assign object = object | sort: 'model' %}
   {% for airliner in object %}
-  <li>{{ airliner.model }}</li>
+  <li><a href="/airliner/{{ airliner.model }}">{{ airliner.company }} {{ airliner.model | capitalize }}</a></li>
   {% endfor %}
 </ul>
 <h4>Structure</h4>

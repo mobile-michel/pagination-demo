@@ -1,10 +1,10 @@
 [
-    "Airbus A220",
-    "Airbus A320",
-    "Airbus A380",
-    "Boeing 717",
-    "Boeing 737",
-    "Boeing 787",
-    "Airbus A350",
-    "Boeing 777"
+    "a220",
+    "a320",
+    "a380",
+    "b717",
+    "b737",
+    "b787",
+    "a350",
+    "b777"
 ]

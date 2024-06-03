@@ -15,7 +15,9 @@ layout: base
         <section aria-labelledby="{{ title | slugify }}">
             <h2 id="{{ title | slugify }}">{{ title }}</h2>
             {% if description %}<p><strong>{{ description }}</strong></p>{% endif %}
+            {% if role %}<p>{{ role }} that entered service in {{ service }}.</p>{% endif %}
             {{ content }}
+            {% include 'navigation/paginate' %}
         </section>
     </main>
 </main-container>
