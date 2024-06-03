@@ -1,9 +1,8 @@
 ---
 title: Test variables
-description:
 layout: default
 tags: [primary, supplieddata]
-date: 2024-01-01
+date: 2024-12-01
 ---
 
 {% for item in collections.airliner %}

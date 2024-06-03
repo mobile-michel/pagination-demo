@@ -1,4 +1,6 @@
 {
     "layout": "default",
-    "tags": ["secondary", "pagination"]
+    "tags": ["secondary", "pagination"],
+    "parent": "pagination",
+    "date": "2024-02-01"
 }

@@ -3,6 +3,7 @@ title: Airliners array
 description: An array of airliners
 date: 2024-02-01
 ---
+  <p>There are {{ array.size }} airliners.</p>
 <ul>
   {% assign array = array | sort %}
   {% for airliner in array %}
@@ -11,11 +12,13 @@ date: 2024-02-01
 </ul>
 
 <h4>Structure</h4>
-<pre>
+<pre><code>
+{% raw %}
   &lt;ul>
-    &#123;% assign array = array | sort %}
-    &#123;% for airliner in array %}
-      &lt;li>&#123;&#123; airliner }}&lt;/li>
-    &#123;% endfor %}
+    {% assign array = array | sort %}
+    {% for airliner in array %}
+      &lt;li>&lt;a href="/airliner/{{ airliner }}">{{ airliner | capitalize }}&lt;/a>&lt;/li>
+    {% endfor %}
   &lt;/ul>
-</pre>
+{% endraw %}
+</code></pre>

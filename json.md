@@ -3,7 +3,7 @@ title: JSON files
 description: structure of JSON files.
 layout: default
 tags: [primary, supplieddata]
-date: 2024-01-01
+date: 2024-12-01
 ---
 ### array.json
 - (array)

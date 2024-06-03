@@ -1,4 +1,6 @@
 {
     "layout": "default",
-    "tags": ["secondary", "permalink"]
+    "tags": ["secondary", "permalink"],
+    "parent": "permalink",
+    "date": "2024-03-01"
 }
