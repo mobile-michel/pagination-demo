@@ -2,7 +2,7 @@
 title: Home
 description: These pages test arrays with different situations.
 layout: default
-tags: primary
+tags: [primary, footer]
 date: 2023-01-01
 ---
 ## Iteration tag

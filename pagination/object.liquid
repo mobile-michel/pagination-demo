@@ -1,6 +1,6 @@
 ---
 title: Paginate object
-description: Paginate an object of airliners
+description: Uses the object.json data file to paginate over the airliner's objects.
 date: 2024-05-05
 pagination:
   data: object
@@ -8,7 +8,7 @@ pagination:
 ---
 {% include 'pagination/object' %}
 <h2>{{ pagination.items[0].company }} {{ pagination.items[0].model | capitalize }}</h2>
-<p>{{ pagination.items[0].role }} that entered service in {{ pagination.items[0].service }}</p>
+<p>{{ pagination.items[0].role }} that entered service in {{ pagination.items[0].service }}.</p>
 <p>{{ pagination.items[0].description }}</p>
 
 <h4>Structure</h4>

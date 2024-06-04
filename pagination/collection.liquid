@@ -1,6 +1,6 @@
 ---
 title: Paginate collection
-description: Paginate an collection of airliners
+description: Uses the airliner tag in frontmatter to paginate over the airliners collection.
 date: 2024-05-06
 pagination:
   data: collections.airliner
@@ -8,6 +8,7 @@ pagination:
 ---
 {% include 'pagination/collection' %}
 <h2>{{ pagination.items[0].data.title }}</h2>
+<p>{{ pagination.items[0].data.role }} that entered service in {{ pagination.items[0].data.service }}.</p>
 <p>{{ pagination.items[0].content }}</p>
 
 <h4>Structure</h4>

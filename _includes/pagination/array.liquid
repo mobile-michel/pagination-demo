@@ -1,5 +1,5 @@
 <p>{% if page.url != pagination.href.first %}<a href="{{ pagination.href.first | url }}"><button>First page</button></a>{% else %}First page{% endif %} - 
-{% if pagination.href.previous %}<a href="{{ pagination.href.previous | url }}"><button>{{ pagination.page.previous }}</button></a>{% else %}Previous{% endif %} - 
+{% if pagination.href.previous %}<a href="{{ pagination.href.previous | url }}"><button>{{ pagination.page.previous | capitalize }}</button></a>{% else %}Previous{% endif %} - 
 This is page {{ pagination.pageNumber | plus: 1 }} - 
-{% if pagination.href.next %}<a href="{{ pagination.href.next | url }}"><button>{{ pagination.page.next }}</button></a> {% else %} Next{% endif %} - 
+{% if pagination.href.next %}<a href="{{ pagination.href.next | url }}"><button>{{ pagination.page.next | capitalize }}</button></a> {% else %} Next{% endif %} - 
 {% if page.url != pagination.href.last %}<a href="{{ pagination.href.last | url }}"><button>Last page</button></a>{% else %}Last page{% endif %}</p>

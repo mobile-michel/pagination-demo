@@ -1,5 +1,5 @@
 <nav aria-label="Secondary">
-  <h3>{{ parent | capitalize }}</h3>
+  <h3><a href="/{{ parent | url }}">{{ parent | capitalize }}</a></h3>
   <ul>
     {% for nav in collections.secondary %}
       {% if nav.data.parent == parent  %}
