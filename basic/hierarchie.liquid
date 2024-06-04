@@ -7,7 +7,7 @@ date: 2024-02-03
   {% for role_names in hierarchic %}
   {% for company_names in role_names.airplanes %}
   {% for airplanes_names in company_names.models %}
-  <li><a href="/airliner/{{ airplanes_names.model }}">{{ company_names.company }} {{ airplanes_names.model | capitalize }}</a></li>
+  <li><a href="{{ airplanes_names.model | prepend: '/airliner/' | url }}">{{ company_names.company }} {{ airplanes_names.model | capitalize }}</a></li>
   {% endfor %}
   {% endfor %}
   {% endfor %}

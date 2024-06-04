@@ -1,7 +1,7 @@
 ---
 title: Important variables
 description: 
-date: 2024-09-10
+date: 2024-09-01
 pagination:
   data: object
   size: 4

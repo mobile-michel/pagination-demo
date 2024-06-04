@@ -1,7 +1,7 @@
 ---
 title: eleventy variable
 description: 
-date: 2024-09-13
+date: 2024-09-05
 pagination:
   data: object
   size: 1

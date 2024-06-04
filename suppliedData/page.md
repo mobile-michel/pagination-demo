@@ -1,7 +1,7 @@
 ---
 title: page variable
 description: 
-date: 2024-09-12
+date: 2024-09-02
 pagination:
   data: object
   size: 1

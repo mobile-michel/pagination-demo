@@ -20,7 +20,7 @@
 ```
 "start": "npx @11ty/eleventy --serve",
 "build": "eleventy",
-"build-gp": "eleventy --pathprefix '11-minimal'",
+"build-gp": "eleventy --pathprefix 'pagination-demo'",
 ```
 
 ## Dependencies

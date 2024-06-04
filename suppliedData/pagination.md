@@ -1,9 +1,6 @@
 ---
 title: pagination variable
-description: 
-layout: default
-tags: [primary, supplieddata]
-date: 2024-09-11
+date: 2024-09-04
 pagination:
   data: object
   size: 1

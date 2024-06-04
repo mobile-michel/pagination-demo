@@ -1,7 +1,7 @@
 ---
-title: Pagination
+title: Supplied Data
 override:tags: [primary]
 ---
-{% for items in collections.pagination %}
+{% for items in collections.supplieddata %}
 - [{{ items.data.title }}]({{ items.url | url }})
 {% endfor %}

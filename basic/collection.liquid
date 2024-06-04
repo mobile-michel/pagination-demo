@@ -6,7 +6,7 @@ date: 2024-02-03
 <ul>
   {% assign airliner = collections.airliner | sort: 'data.title' %}
   {% for airliner in airliner %}
-  <li><a href="{{ airliner.url }}">{{ airliner.data.title }}</a></li>
+  <li><a href="{{ airliner.url | url }}">{{ airliner.data.title }}</a></li>
   {% endfor %}
 </ul>
 <h4>Structure</h4>

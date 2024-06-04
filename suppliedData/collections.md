@@ -1,7 +1,7 @@
 ---
 title: collections variable
 description: 
-date: 2024-09-10
+date: 2024-09-03
 pagination:
   data: object
   size: 1

@@ -1,7 +1,7 @@
 ---
 title: pkg variable
 description: 
-date: 2024-09-14
+date: 2024-09-06
 pagination:
   data: object
   size: 1

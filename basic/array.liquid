@@ -7,7 +7,7 @@ date: 2024-02-01
 <ul>
   {% assign array = array | sort %}
   {% for airliner in array %}
-  <li><a href="/airliner/{{ airliner }}">{{ airliner | capitalize }}</a></li>
+  <li><a href="{{ airliner | prepend: '/airliner/' | url }}">{{ airliner | capitalize }}</a></li>
   {% endfor %}
 </ul>
 
